@@ -1,0 +1,37 @@
+# Unity generated
+Library/
+Temp/
+Obj/
+Logs/
+Build/
+Builds/
+UserSettings/
+MemoryCaptures/
+
+# Auto-generated VS/Rider solution and project files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Unity3D generated meta files
+# *.meta
+
+# OS generated
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+
+# VS Code
+.vscode/
