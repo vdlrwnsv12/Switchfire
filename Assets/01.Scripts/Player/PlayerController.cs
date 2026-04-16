@@ -31,15 +31,8 @@ public class PlayerController : MonoBehaviour
             dir = new Vector3(h, 0, v).normalized;
         }
 
-        if(Input.GetKey(KeyCode.LeftShift))
-        {
-            speed = speed * 1.5f;
-        }
-        else
-        {
-            speed = 5;
-        }
+        float currentSpeed = Input.GetKey(KeyCode.LeftShift) ? speed * 1.8f : speed;
 
-        rb.MovePosition(rb.position + dir * speed * Time.fixedDeltaTime);
+        rb.MovePosition(rb.position + dir * currentSpeed * Time.fixedDeltaTime);
     }
 }
